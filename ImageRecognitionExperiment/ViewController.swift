@@ -12,6 +12,8 @@ class ViewController: NSViewController {
     
     var visualEffect: NSVisualEffectView!
 
+    @IBOutlet weak var recogniserView: RecogniserView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.addVibrancy()
