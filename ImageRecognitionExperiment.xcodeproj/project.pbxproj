@@ -11,6 +11,7 @@
 		96338BC1236C3E610051A099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96338BC0236C3E610051A099 /* ViewController.swift */; };
 		96338BC3236C3E650051A099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96338BC2236C3E650051A099 /* Assets.xcassets */; };
 		96338BC6236C3E650051A099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96338BC4236C3E650051A099 /* Main.storyboard */; };
+		96338BCF236C41560051A099 /* RecogniserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96338BCE236C41560051A099 /* RecogniserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		96338BC5236C3E650051A099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96338BC7236C3E650051A099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96338BC8236C3E650051A099 /* ImageRecognitionExperiment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImageRecognitionExperiment.entitlements; sourceTree = "<group>"; };
+		96338BCE236C41560051A099 /* RecogniserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecogniserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				96338BBE236C3E610051A099 /* AppDelegate.swift */,
 				96338BC0236C3E610051A099 /* ViewController.swift */,
+				96338BCE236C41560051A099 /* RecogniserView.swift */,
 				96338BC2236C3E650051A099 /* Assets.xcassets */,
 				96338BC4236C3E650051A099 /* Main.storyboard */,
 				96338BC7236C3E650051A099 /* Info.plist */,
@@ -135,6 +138,7 @@
 			files = (
 				96338BC1236C3E610051A099 /* ViewController.swift in Sources */,
 				96338BBF236C3E610051A099 /* AppDelegate.swift in Sources */,
+				96338BCF236C41560051A099 /* RecogniserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
