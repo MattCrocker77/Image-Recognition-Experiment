@@ -21,4 +21,4 @@ to reference the appropriate model.
 ## Running
 The model should run directly from Xcode.  You will be presented with a window like the one below
 
-![empty window](./ImageRecognitionExperiment/docs/Empty.png)
+![empty window](./docs/Empty.png)
