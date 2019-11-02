@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962DA902236C83BB000BD456 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962DA901236C83BB000BD456 /* ImageClassifier.swift */; };
+		962DA904236C8670000BD456 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 962DA903236C8670000BD456 /* MobileNetV2.mlmodel */; };
+		962DA906236C9400000BD456 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 962DA905236C9400000BD456 /* Inceptionv3.mlmodel */; };
 		96338BBF236C3E610051A099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96338BBE236C3E610051A099 /* AppDelegate.swift */; };
 		96338BC1236C3E610051A099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96338BC0236C3E610051A099 /* ViewController.swift */; };
 		96338BC3236C3E650051A099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96338BC2236C3E650051A099 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		962DA901236C83BB000BD456 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		962DA903236C8670000BD456 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		962DA905236C9400000BD456 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		96338BBB236C3E610051A099 /* ImageRecognitionExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRecognitionExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96338BBE236C3E610051A099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96338BC0236C3E610051A099 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,9 +61,12 @@
 		96338BBD236C3E610051A099 /* ImageRecognitionExperiment */ = {
 			isa = PBXGroup;
 			children = (
+				962DA903236C8670000BD456 /* MobileNetV2.mlmodel */,
+				962DA905236C9400000BD456 /* Inceptionv3.mlmodel */,
 				96338BBE236C3E610051A099 /* AppDelegate.swift */,
 				96338BC0236C3E610051A099 /* ViewController.swift */,
 				96338BCE236C41560051A099 /* RecogniserView.swift */,
+				962DA901236C83BB000BD456 /* ImageClassifier.swift */,
 				96338BC2236C3E650051A099 /* Assets.xcassets */,
 				96338BC4236C3E650051A099 /* Main.storyboard */,
 				96338BC7236C3E650051A099 /* Info.plist */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962DA902236C83BB000BD456 /* ImageClassifier.swift in Sources */,
+				962DA906236C9400000BD456 /* Inceptionv3.mlmodel in Sources */,
 				96338BC1236C3E610051A099 /* ViewController.swift in Sources */,
 				96338BBF236C3E610051A099 /* AppDelegate.swift in Sources */,
+				962DA904236C8670000BD456 /* MobileNetV2.mlmodel in Sources */,
 				96338BCF236C41560051A099 /* RecogniserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
