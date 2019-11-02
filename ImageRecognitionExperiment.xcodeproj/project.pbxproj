@@ -15,6 +15,7 @@
 		96338BC3236C3E650051A099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96338BC2236C3E650051A099 /* Assets.xcassets */; };
 		96338BC6236C3E650051A099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96338BC4236C3E650051A099 /* Main.storyboard */; };
 		96338BCF236C41560051A099 /* RecogniserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96338BCE236C41560051A099 /* RecogniserView.swift */; };
+		9640CB41236DE9D4005AF90E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9640CB40236DE9D4005AF90E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		96338BC7236C3E650051A099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96338BC8236C3E650051A099 /* ImageRecognitionExperiment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImageRecognitionExperiment.entitlements; sourceTree = "<group>"; };
 		96338BCE236C41560051A099 /* RecogniserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecogniserView.swift; sourceTree = "<group>"; };
+		9640CB40236DE9D4005AF90E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		96338BB2236C3E610051A099 = {
 			isa = PBXGroup;
 			children = (
+				9640CB40236DE9D4005AF90E /* .gitignore */,
 				96338BBD236C3E610051A099 /* ImageRecognitionExperiment */,
 				96338BBC236C3E610051A099 /* Products */,
 			);
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96338BC3236C3E650051A099 /* Assets.xcassets in Resources */,
+				9640CB41236DE9D4005AF90E /* .gitignore in Resources */,
 				96338BC6236C3E650051A099 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

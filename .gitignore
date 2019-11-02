@@ -1,0 +1,2 @@
+# Don't add the models to the repository as they are large and possibly subject to license constraints.
+*.mlmodel
