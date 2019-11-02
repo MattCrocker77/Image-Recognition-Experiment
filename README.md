@@ -22,3 +22,8 @@ to reference the appropriate model.
 The model should run directly from Xcode.  You will be presented with a window like the one below
 
 ![empty window](./docs/Empty.png)
+
+Simply drag and drop any image file (with file name extension '.jpg', '.jpeg', '.bmp', '.png', or '.gif') onto the application window and it will make an attempt to identify the main object in the picture.  It is not always successful.
+
+![empty window](./docs/Ball.png)
+![empty window](./docs/Train.png)
