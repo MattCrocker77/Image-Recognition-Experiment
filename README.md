@@ -19,7 +19,7 @@ let classifier = try VNCoreMLModel(for: Inceptionv3().model)
 to reference the appropriate model.
 
 ## Running
-The model should run directly from Xcode.  You will be presented with a window like the one below
+The model should run directly from Xcode.  You will be presented with a window like the one below:
 
 ![empty window](./docs/Empty.png)
 
@@ -27,3 +27,14 @@ Simply drag and drop any image file (with file name extension '.jpg', '.jpeg', '
 
 ![empty window](./docs/Ball.png)
 ![empty window](./docs/Train.png)
+
+The key lines are foiund in `ImageClassifier.swift`:
+
+```
+let classifier = try VNCoreMLModel(for: Inceptionv3().model)
+let request = VNCoreMLRequest(model: classifier, completionHandler: self.handleResults)
+let handler = VNImageRequestHandler(url: url)
+try handler.perform([request])
+```
+
+The classifier uses the Vision framework to avoid the need to resize or otherwise pre-process the images prior to invoking the classifier.
