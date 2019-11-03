@@ -128,7 +128,7 @@ class RecogniserView: NSView {
         
         if let urls = pasteBoard.readObjects(forClasses: [NSURL.self], options:[:]) as? [URL], urls.count > 0 {
             
-            let classifier = ImageClassifier(model: "Resnet50")
+            let classifier = ImageClassifier(model: "Inceptionv3")
             
             // Process the images one-by-one
             for url in urls {

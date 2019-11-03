@@ -17,6 +17,7 @@
 		96338BCF236C41560051A099 /* RecogniserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96338BCE236C41560051A099 /* RecogniserView.swift */; };
 		9640CB41236DE9D4005AF90E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9640CB40236DE9D4005AF90E /* .gitignore */; };
 		9640CB44236F7868005AF90E /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9640CB43236F7868005AF90E /* Resnet50.mlmodel */; };
+		9640CB47236F7A22005AF90E /* VGG16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9640CB46236F7A22005AF90E /* VGG16.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		96338BCE236C41560051A099 /* RecogniserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecogniserView.swift; sourceTree = "<group>"; };
 		9640CB40236DE9D4005AF90E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9640CB43236F7868005AF90E /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		9640CB46236F7A22005AF90E /* VGG16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VGG16.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				962DA903236C8670000BD456 /* MobileNetV2.mlmodel */,
 				962DA905236C9400000BD456 /* Inceptionv3.mlmodel */,
 				9640CB43236F7868005AF90E /* Resnet50.mlmodel */,
+				9640CB46236F7A22005AF90E /* VGG16.mlmodel */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9640CB47236F7A22005AF90E /* VGG16.mlmodel in Sources */,
 				9640CB44236F7868005AF90E /* Resnet50.mlmodel in Sources */,
 				962DA902236C83BB000BD456 /* ImageClassifier.swift in Sources */,
 				962DA906236C9400000BD456 /* Inceptionv3.mlmodel in Sources */,
