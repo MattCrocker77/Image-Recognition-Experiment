@@ -12,11 +12,7 @@ The pre-trained classifier models are not included in the repository as
 * They may be subject to license restrictions.
 The good news is that they can be downloaded from [Apple](https://developer.apple.com/machine-learning/models/) or [third parties](https://github.com/likedan/Awesome-CoreML-Models).  The code as supplied here assumes that you have access to the Inceptionv3 model from the latter.  To use it, just download it from [here](https://github.com/yulingtianxia/Core-ML-Sample/blob/master/CoreMLSample/Inceptionv3.mlmodel) and add it to your Xcode project.
 
-If you use a different model change line [`23`](ImageRecognitionExperiment/ImageClassifier.swift#L23) of `ImageClassifier.swift` from
-```
-let classifier = try VNCoreMLModel(for: Inceptionv3().model)
-```
-to reference the appropriate model.
+If you use a different model from the four common ones listed modify the [`init`](ImageRecognitionExperiment/ImageClassifier.swift#L18-L40) method of `ImageClassifier.swift` to reference the appropriate model.
 
 ## Running
 The model should run directly from Xcode.  You will be presented with a window like the one below:
