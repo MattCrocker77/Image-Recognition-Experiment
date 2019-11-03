@@ -45,7 +45,7 @@ The image is passed in using the path to its file (as a URL) on the next line.  
 
 The final step is to actually apply the model to the image.
 
-The `handleResults()` function simply obtains the classification results from the classifier in descending order of confidence and selects the most likely classification.
+The [`handleResults()`](ImageRecognitionExperiment/ImageClassifier.swift#L37-45) function simply obtains the classification results from the classifier in descending order of confidence and selects the most likely classification.
 
 ## Other Features
 
