@@ -47,10 +47,10 @@ The final step is to actually apply the model to the image.
 
 The `handleResults()` function simply obtains the classification results from the classifier in descending order of confidence and selects the most likely classification.
 
-## Other Faetures
+## Other Features
 
 This repository also conatins examples of how to implement:
 
-* Transparency and blurring of an entire window (in the `addVibrancy()` method of `ViewController.swift`.
+* Transparency and blurring of an entire window (in the [`addVibrancy()`](ImageRecognitionExperiment/ViewController.swift#L29-L46) method of `ViewController.swift`.
 * Drag and drop of images onto a custom view in `RecogniserView.swift`.
 * Drawing images and text into windows as Core Animation Layers, also in `RecogniserView.swift`.
