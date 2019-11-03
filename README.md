@@ -28,7 +28,7 @@ Simply drag and drop any image file (with file name extension '.jpg', '.jpeg', '
 ![empty window](./docs/Ball.png)
 ![empty window](./docs/Train.png)
 
-The key lines with regards to classification are foiund in `ImageClassifier.swift`.  The following must be wrapped in a `do`... `catch` statement to pick up problems when initialising the model.
+The key lines with regards to classification are found in [`ImageClassifier.swift`](ImageRecognitionExperiment/ImageClassifier.swift#L17-L35).  The following must be wrapped in a `do`... `catch` statement to pick up problems when initialising the model.
 
 ```
 let classifier = try VNCoreMLModel(for: Inceptionv3().model)
