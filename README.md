@@ -28,10 +28,9 @@ Simply drag and drop any image file (with file name extension '.jpg', '.jpeg', '
 ![empty window](./docs/Ball.png)
 ![empty window](./docs/Train.png)
 
-The key lines with regards to classification are found in [`ImageClassifier.swift`](ImageRecognitionExperiment/ImageClassifier.swift#L17-L35).  The following must be wrapped in a `do`... `catch` statement to pick up problems when initialising the model.
+The key lines with regards to classification are found in [`ImageClassifier.swift`](ImageRecognitionExperiment/ImageClassifier.swift#L42-L56).  The following must be wrapped in a `do`... `catch` statement to pick up problems when performing the request.
 
 ```
-let classifier = try VNCoreMLModel(for: Inceptionv3().model)
 let request = VNCoreMLRequest(model: classifier, completionHandler: self.handleResults)
 let handler = VNImageRequestHandler(url: url)
 try handler.perform([request])
@@ -45,7 +44,7 @@ The image is passed in using the path to its file (as a URL) on the next line.  
 
 The final step is to actually apply the model to the image.
 
-The [`handleResults()`](ImageRecognitionExperiment/ImageClassifier.swift#L37-L45) function simply obtains the classification results from the classifier in descending order of confidence and selects the most likely classification.
+The [`handleResults()`](ImageRecognitionExperiment/ImageClassifier.swift#L58-L66) function simply obtains the classification results from the classifier in descending order of confidence and selects the most likely classification.
 
 ## Other Features
 
