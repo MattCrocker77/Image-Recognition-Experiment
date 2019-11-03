@@ -53,4 +53,4 @@ This repository also conatins examples of how to implement:
 
 * Transparency and blurring of an entire window (in the [`addVibrancy()`](ImageRecognitionExperiment/ViewController.swift#L29-L46) method of `ViewController.swift`.
 * Drag and drop of images onto a custom view in `RecogniserView.swift`.
-* Drawing images and text into windows as Core Animation Layers, also in `RecogniserView.swift`.
+* Drawing images and text into windows as Core Animation Layers, also in [`RecogniserView.swift`](ImageRecognitionExperiment/RecogniserView.swift#L28-L56).
